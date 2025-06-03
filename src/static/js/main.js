@@ -258,6 +258,7 @@ async function connectToWebsocket() {
         generationConfig: {
             responseModalities: responseTypeSelect.value,
             speechConfig: {
+				languageCode: "cmn-CN",
                 voiceConfig: { 
                     prebuiltVoiceConfig: { 
                         voiceName: voiceSelect.value    // You can change voice in the config.js file
